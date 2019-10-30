@@ -15,7 +15,7 @@ router.get('/test', (req, res)=> {
     )
 })
 
-router.get('/param/{id}', (req, res) => {
+router.get('/param/:id', (req, res) => {
 
     return res.send ({
         "param": req.params.id
