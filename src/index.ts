@@ -1,6 +1,6 @@
-import bodyParser = require('body-parser');
+import bodyParser from 'body-parser';
 
-import express = require('express')
+import express from 'express';
 
 const app = express();
 app.use(bodyParser.json());

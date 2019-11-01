@@ -1,4 +1,4 @@
-import express = require('express')
+import express from 'express';
 
 import testRoute from './testRoute'
 import myRoute from './myRoute'
