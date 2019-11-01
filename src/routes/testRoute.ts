@@ -1,12 +1,9 @@
-const express = require('express');
-const bodyParser = require('body-parser');
 
-const app = express();
-app.use(bodyParser.json());
+import express = require('express');
 
 const router = express.Router();
 
-router.get('/test', (req, res)=> {
+router.get('/', (req, res)=> {
     return res.send(
         {
             "id": "1234",
@@ -22,4 +19,4 @@ router.get('/param/:id', (req, res) => {
     })
 })
 
-module.exports = router;
+export default router
