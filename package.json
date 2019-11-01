@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "tsc": "tsc",
     "dev": "npm run build && npm run serve",
     "serve": "node dist/www",
     "build": "tsc"
